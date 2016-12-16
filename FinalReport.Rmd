@@ -1,0 +1,159 @@
+---
+title: Final Report On The Effects Of Cigarette Taxation For The State Congress of Utah
+author: "Thomas Steinbrecher, Ting Chen"
+date: "December 10, 2016"
+output: pdf_document
+fonsizet: 12pt
+---
+
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+library(stargazer)
+library(ggplot2)
+source('analysis.r')
+library(dplyr)
+```
+
+# Introduction
+
+We have been asked by the Utah State House Legislature Committee on Health and Human Resources to to provide up-to-date demand elasticity estimates for cigarettes. With the last major report prepared with data ranging from 1985 to 1995, we have the opportunity to provide up-to-date estimates to enable more informed policy making.
+
+While cigarette consumption is on the decline, health officials are rightfully concerned with how to most effectively ensure that decline continues. As such, the discussion carried out in the current report focuses on determining the rate of decrease in consumption due to the increase in the price of cigarettes. 
+
+```{r, echo=F, fig.height=3}
+ggplot(cig.price.data, aes(x=year, y=cc, color=name))+
+  geom_line() +
+  ylim(0,300) +
+  theme(legend.position = "none") +
+  ggtitle("Figure 1. Ciggerette consumption by year")
+
+```
+	
+In continuing the general trend of decreasing cigarette consumption, the legislature aims to cause a 20% decrease in consumption in the long-run through the introduction of cigarette specific taxation. While a simple question, the answer requires rigorously calculating the demand elasticity for cigarettes.
+
+Previous research has show that demand is significantly elastic in the long run, but is however inelastic in the short run due to the addictive nature of cigarettes. As such, the changes in demand are most strongly attributed to price changes discouraging people from ever taking up smoking, more-so than discouraging current smokers from smoking as much.
+
+Some difficulties anticipated in providing accurate reports include the lack of a short run elasticity, and our report will not investigate the method of action by which taxes reduce consumption. We will only investigate how long run increases in price affect long run changes in consumption.
+
+Through our analysis, we will ultimately find that in the long run a 1% increase in the real average price per pack of cigarettes contributes to a 1.516% decrease in the consumption of cigarettes.
+
+# Analysis of Demand Elasticity
+
+In the short run the the quantity of cigarettes demanded is relatively inelastic due to the addictive nature of the product, as such we will focus our analysis on the long run demand and supply which allows for actual quantity changes.
+
+## The Data
+
+We composed a set of data including Centers for Disease Control, Bureau of Economic Analysis, and Bureau of Labor Statistics datasets in order to provide information of cigarettes consumption, cigarette prices, and an adequate set of control variables, a full set of the variables included in our analysis is available in the appendix.
+
+## Analysis
+
+To begin our analysis we reviewed the cross-sectional effects of price and income in 2014 on cigarette consumption. Consistent with our belief in an elastic long-run demand, we see a negative relationship between the real average cost per pack and the consumption of cigarettes. To investigate the effect of taxes, both general and cigarette specific, we utilized instrumental variable regression to see the effect of real average cost per pack on consumption utilizing taxation as an instruments. Our cross sectional ultimately estimates a regression of $$ log(Consumption)_i = log(Price)_i + log(Income)_i + \mu_i \ (1) $$.
+
+This regression provides control for income and, and allows us to examine the relationship between price and consumption.
+
+```{r, echo=F, fig.height=3}
+ggplot(cig.14, aes(y=log(cc), x=log(racpp)))+
+  geom_point() +
+  ggtitle("Figure 2: Consumption vs. Real Average Cost Per Pack")
+```
+
+```{r, echo=F, results='asis'}
+stargazer(reg.12.11,reg.12.15,reg.12.16,reg.extra, title="Cross-sectional Regressions",  header=F,
+          add.lines = list(c("Instrument","Sales Tax","Sales Tax","Ciggerette Tax", "Sales and Ciggerette Tax")))
+```
+
+However, the existence of a negative relationship between consumption and price in a cross-sectional analysis is not enough to prove a causal relationship between an increase in taxes and a decrease in consumption. These estimates are inspiring for moving forward with our analysis, but the cross-sectional analysis is not necessarily free of omitted variable bias, which we suspect on the basis of the addictiveness of cigarettes.
+
+With our suspicions of an elasticity confirmed, we can move forward to estimating the long run elasticity by examining the differences in consumption and prices between the years of 2014 and 1996. We compute the difference of logs of consumption, real average cost per pack, real per capita personal income, and the differences of real general tax rate and real cigarette specific tax rates between the years of 2014 and 1996.
+
+By looking at same state differences, we eliminate the omitted variable bias that we fear was effecting our cross-sectional analysis, and accordingly receive a a valid estimate for the change in consumption due to the change in price.
+
+We estimate the regression of $$\Delta log(consumption)_i = \Delta log(price)_i + \Delta log(Income)_i + \mu_i \ (2)$$ utilizing the instruments of $\Delta$Sales Tax, $\Delta$Cigarette Tax.
+```{r, echo=FALSE, results='asis'}
+
+stargazer(reg.12.1,reg.12.2,reg.12.3, title="Long-run Differences Regression", header = F,
+          add.lines = list(c("Instrument","Sales Tax", "Ciggerette Tax", "Sales  and Ciggerette Tax")))
+```
+
+We see that we get considerably different estimates based on which instruments we utilize. As such, we need to utilize our judgment to determine the regression results which are most accurate. Upon recalling the assumptions of instrumental variable regression, we recognize that our instruments must be exogenously determined. If we consider that that states with higher consumption of cigarettes will have stronger cigarette lobbies seeking to keep cigarette specific taxes low, we recognize that cigarette specific taxes are not exogenous, and the most reliable regression is regression (1) utilizing sales tax as the instrument.
+
+# Conclusions
+
+It is our hope that these estimated demand elasticities provide useful information for policy making. Through our analysis we investigated both cross sectional and long-run elasticities, and can recommend that all who are so concerned utilize our elasticity calculated in long-run regression (1), which establishes that for a 1% increase in the real cost per pack of cigarettes will lead to a 1.516% decrease in consumption of cigarettes.
+
+As such we urge legislatures to achieve an approximately 13% increase in the price of cigarettes to achieve their goal of reducing consumption by 20%. However, we also would like to caution that such an increase will not be able to immediately reduce the consumption of cigarettes and that we should look for effects not in the short term, but in the long run.
+
+Looking forward, we ask future researchers to investigate additional effects beyond price as potential confounders. As Americans have become increasingly aware to the dangers of smoking, we question if there is additional effects beyond taxation driving down the consumption of cigarettes. Furthermore, we consider is the mechanism of taxation to reduce smoking primarily stopping non-smokers from ever starting smoking, or does it also price out current smokers leading them to quit. These are all great research questions, and elements that we believe can effect policy moving forward.
+\newpage
+
+# Appendix
+
+## Investigating Short Run Demand Changes
+
+We state in our analysis that we believe that short run demand for cigarettes is inelastic, and therefore continue to focus our analysis on that subject. Because cigarette consumption is a large public health crisis, the question of whether we can affect demand quicker is a very reasonable question. However, while ideal, the method of taxation is largely ineffective at causing short run changes in quantity, a belief we have backed up with a quick analysis of the differences in consumption between 2013 and 2014 regressed on changes in taxation. We find, as we expect that the demand is inelastic in the short run, (i.e. there are no regression coefficients significantly different from zero).
+```{r, echo=F,results='asis'}
+stargazer(short.1,short.2,short.3, title="Short-run Differences Regression", header = F,
+          add.lines = list(c("Instrument","Sales Tax", "Ciggerette Tax", "Sales and Ciggerette Tax")))
+```
+
+## Codebook
+
+|Name |Definition|
+|---------------|--------------------------------------------------------------|
+|year |Year of data|
+|name |Name of state (Alabama, Alaska, etc.)|
+|acpp |Average nominal cost of cigarettes (dollars per pack)|
+|cc |Cigarette consumption per capita (packs per year)|
+|fstprp |Federal and state cigarette-specific taxes as a percentage of the retail price (price you actually pay) of cigarettes|
+|fstpp| Federal and state cigarette-specific nominal taxes (dollars per pack)|
+|gctr| Gross cigarette-specific nominal tax revenues (dollars)|
+|stpp |State cigarette-specific nominal tax (dollars per pack)|
+|pi |Nominal personal income (dollars)|
+|pcpi| Per capita nomial personal income (dollars)|
+|pop |Population|
+|cpi |CPI value (All urban consumers)|
+|inflation_factor| Factor by which to multiply a dollar in a given year to make it equivalent to a dollar in the base year (2014)|
+|racpp| Average real cost of cigarettes (2014 dollars per pack)|
+|rfstpp |Federal and state cigarette-specific real taxes (2014 dollars per pack)|
+|rgctr |Gross cigarette-specific real tax revenues (2014 dollars)|
+|rstpp| State cigarette-specific nominal tax (2014 dollars per pack)|
+|rpi |Real personal income (2014 dollars)|
+|rpcpi| Per capita real personal income (2014 dollars)|
+|rgstpp| Real general sales tax per pack
+
+## Additional Figures
+
+```{r, echo=F}
+
+state.average <- cig.price.data  %>% group_by(name) %>%
+                 summarise(mean(cc))
+
+ggplot(state.average, aes(x=name, y=`mean(cc)`)) +
+  geom_bar(stat="identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("Figure 3: Average Cigarette Consumption by State 1970-2014")
+
+
+year.average.consumption <- cig.price.data %>% group_by(year) %>%
+                summarise(mean(cc))
+
+ggplot(year.average.consumption, aes(x=year, y=`mean(cc)`)) +
+  geom_line(stat="identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ylim(0, 150) +
+  ggtitle("Figure 4:  Average cigarette consumption by year (across all states) 1970-2014")
+
+
+year.average.price <- cig.price.data %>% group_by(year) %>%
+                summarise(mean(acpp))
+
+ggplot(year.average.price, aes(x=year, y=`mean(acpp)`)) +
+  geom_line(stat="identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("Figure 5: Average nominal price by year (across all states) 1970-2014")
+
+
+
+
+
+
+```

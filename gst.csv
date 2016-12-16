@@ -1,0 +1,2296 @@
+"name","year","gstpp"
+"Alabama",1970,2
+"Alabama",1971,2
+"Alabama",1972,1
+"Alabama",1973,2
+"Alabama",1974,2
+"Alabama",1975,2
+"Alabama",1976,2
+"Alabama",1977,2
+"Alabama",1978,2
+"Alabama",1979,2
+"Alabama",1980,2
+"Alabama",1981,2
+"Alabama",1982,3
+"Alabama",1983,3
+"Alabama",1984,3
+"Alabama",1985,3
+"Alabama",1986,4
+"Alabama",1987,4
+"Alabama",1988,5
+"Alabama",1989,5
+"Alabama",1990,7
+"Alabama",1991,7
+"Alabama",1992,7
+"Alabama",1993,6
+"Alabama",1994,6
+"Alabama",1995,6
+"Alabama",1996,7
+"Alabama",1997,8
+"Alabama",1998,8
+"Alabama",1999,11
+"Alabama",2000,12
+"Alabama",2001,13
+"Alabama",2002,13
+"Alabama",2003,13
+"Alabama",2004,14
+"Alabama",2005,14
+"Alabama",2006,14
+"Alabama",2007,15
+"Alabama",2008,15
+"Alabama",2009,18
+"Alabama",2010,19
+"Alabama",2011,19
+"Alabama",2012,19
+"Alabama",2013,20
+"Alabama",2014,20
+"Alaska",1970,0
+"Alaska",1971,0
+"Alaska",1972,0
+"Alaska",1973,0
+"Alaska",1974,0
+"Alaska",1975,0
+"Alaska",1976,0
+"Alaska",1977,0
+"Alaska",1978,0
+"Alaska",1979,0
+"Alaska",1980,0
+"Alaska",1981,0
+"Alaska",1982,0
+"Alaska",1983,0
+"Alaska",1984,0
+"Alaska",1985,0
+"Alaska",1986,0
+"Alaska",1987,0
+"Alaska",1988,0
+"Alaska",1989,0
+"Alaska",1990,0
+"Alaska",1991,0
+"Alaska",1992,0
+"Alaska",1993,0
+"Alaska",1994,0
+"Alaska",1995,0
+"Alaska",1996,0
+"Alaska",1997,0
+"Alaska",1998,0
+"Alaska",1999,0
+"Alaska",2000,0
+"Alaska",2001,0
+"Alaska",2002,0
+"Alaska",2003,0
+"Alaska",2004,0
+"Alaska",2005,0
+"Alaska",2006,0
+"Alaska",2007,0
+"Alaska",2008,0
+"Alaska",2009,0
+"Alaska",2010,0
+"Alaska",2011,0
+"Alaska",2012,0
+"Alaska",2013,0
+"Alaska",2014,0
+"Arizona",1970,1
+"Arizona",1971,1
+"Arizona",1972,1
+"Arizona",1973,1
+"Arizona",1974,2
+"Arizona",1975,2
+"Arizona",1976,2
+"Arizona",1977,2
+"Arizona",1978,2
+"Arizona",1979,2
+"Arizona",1980,3
+"Arizona",1981,3
+"Arizona",1982,3
+"Arizona",1983,4
+"Arizona",1984,5
+"Arizona",1985,5
+"Arizona",1986,6
+"Arizona",1987,6
+"Arizona",1988,7
+"Arizona",1989,7
+"Arizona",1990,7
+"Arizona",1991,8
+"Arizona",1992,9
+"Arizona",1993,8
+"Arizona",1994,8
+"Arizona",1995,10
+"Arizona",1996,11
+"Arizona",1997,11
+"Arizona",1998,13
+"Arizona",1999,16
+"Arizona",2000,17
+"Arizona",2001,18
+"Arizona",2002,19
+"Arizona",2003,22
+"Arizona",2004,22
+"Arizona",2005,23
+"Arizona",2006,24
+"Arizona",2007,29.1
+"Arizona",2008,31
+"Arizona",2009,35
+"Arizona",2010,42
+"Arizona",2011,43
+"Arizona",2012,43
+"Arizona",2013,37
+"Arizona",2014,37
+"Arkansas",1970,0
+"Arkansas",1971,0
+"Arkansas",1972,0
+"Arkansas",1973,0
+"Arkansas",1974,0
+"Arkansas",1975,0
+"Arkansas",1976,0
+"Arkansas",1977,0
+"Arkansas",1978,0
+"Arkansas",1979,0
+"Arkansas",1980,0
+"Arkansas",1981,0
+"Arkansas",1982,0
+"Arkansas",1983,0
+"Arkansas",1984,0
+"Arkansas",1985,0
+"Arkansas",1986,0
+"Arkansas",1987,5
+"Arkansas",1988,5
+"Arkansas",1989,5
+"Arkansas",1990,7
+"Arkansas",1991,8
+"Arkansas",1992,9
+"Arkansas",1993,9
+"Arkansas",1994,8
+"Arkansas",1995,8
+"Arkansas",1996,8
+"Arkansas",1997,9
+"Arkansas",1998,10
+"Arkansas",1999,13
+"Arkansas",2000,13
+"Arkansas",2001,14
+"Arkansas",2002,16
+"Arkansas",2003,16
+"Arkansas",2004,18
+"Arkansas",2005,21
+"Arkansas",2006,22
+"Arkansas",2007,22
+"Arkansas",2008,24
+"Arkansas",2009,32
+"Arkansas",2010,33
+"Arkansas",2011,33
+"Arkansas",2012,33
+"Arkansas",2013,33
+"Arkansas",2014,36
+"California",1970,2
+"California",1971,2
+"California",1972,2
+"California",1973,2
+"California",1974,3
+"California",1975,3
+"California",1976,3
+"California",1977,4
+"California",1978,4
+"California",1979,4
+"California",1980,4
+"California",1981,5
+"California",1982,5
+"California",1983,5
+"California",1984,6
+"California",1985,6
+"California",1986,7
+"California",1987,8
+"California",1988,8
+"California",1989,10
+"California",1990,11
+"California",1991,14
+"California",1992,15
+"California",1993,14
+"California",1994,14
+"California",1995,14
+"California",1996,14
+"California",1997,15
+"California",1998,16
+"California",1999,25
+"California",2000,26
+"California",2001,27
+"California",2002,28
+"California",2003,28
+"California",2004,28
+"California",2005,29
+"California",2006,29
+"California",2007,30
+"California",2008,31
+"California",2009,37
+"California",2010,39
+"California",2011,39
+"California",2012,39
+"California",2013,41
+"California",2014,41
+"Colorado",1970,0
+"Colorado",1971,0
+"Colorado",1972,0
+"Colorado",1973,0
+"Colorado",1974,0
+"Colorado",1975,0
+"Colorado",1976,0
+"Colorado",1977,0
+"Colorado",1978,0
+"Colorado",1979,0
+"Colorado",1980,0
+"Colorado",1981,0
+"Colorado",1982,0
+"Colorado",1983,0
+"Colorado",1984,0
+"Colorado",1985,0
+"Colorado",1986,0
+"Colorado",1987,0
+"Colorado",1988,0
+"Colorado",1989,0
+"Colorado",1990,0
+"Colorado",1991,0
+"Colorado",1992,0
+"Colorado",1993,0
+"Colorado",1994,0
+"Colorado",1995,0
+"Colorado",1996,0
+"Colorado",1997,0
+"Colorado",1998,0
+"Colorado",1999,0
+"Colorado",2000,0
+"Colorado",2001,0
+"Colorado",2002,0
+"Colorado",2003,0
+"Colorado",2004,0
+"Colorado",2005,0
+"Colorado",2006,0
+"Colorado",2007,0
+"Colorado",2008,0
+"Colorado",2009,0
+"Colorado",2010,15
+"Colorado",2011,15
+"Colorado",2012,15
+"Colorado",2013,16
+"Colorado",2014,16
+"Connecticut",1970,0
+"Connecticut",1971,0
+"Connecticut",1972,0
+"Connecticut",1973,0
+"Connecticut",1974,0
+"Connecticut",1975,0
+"Connecticut",1976,0
+"Connecticut",1977,0
+"Connecticut",1978,0
+"Connecticut",1979,0
+"Connecticut",1980,6
+"Connecticut",1981,6
+"Connecticut",1982,7
+"Connecticut",1983,8
+"Connecticut",1984,8
+"Connecticut",1985,8
+"Connecticut",1986,9
+"Connecticut",1987,10
+"Connecticut",1988,11
+"Connecticut",1989,14
+"Connecticut",1990,14
+"Connecticut",1991,11
+"Connecticut",1992,12
+"Connecticut",1993,12
+"Connecticut",1994,12
+"Connecticut",1995,12
+"Connecticut",1996,13
+"Connecticut",1997,13
+"Connecticut",1998,14
+"Connecticut",1999,19
+"Connecticut",2000,19
+"Connecticut",2001,21
+"Connecticut",2002,26
+"Connecticut",2003,28
+"Connecticut",2004,28
+"Connecticut",2005,28
+"Connecticut",2006,28
+"Connecticut",2007,32
+"Connecticut",2008,33
+"Connecticut",2009,44
+"Connecticut",2010,45
+"Connecticut",2011,48
+"Connecticut",2012,52
+"Connecticut",2013,52
+"Connecticut",2014,52
+"Delaware",1970,0
+"Delaware",1971,0
+"Delaware",1972,0
+"Delaware",1973,0
+"Delaware",1974,0
+"Delaware",1975,0
+"Delaware",1976,0
+"Delaware",1977,0
+"Delaware",1978,0
+"Delaware",1979,0
+"Delaware",1980,0
+"Delaware",1981,0
+"Delaware",1982,0
+"Delaware",1983,0
+"Delaware",1984,0
+"Delaware",1985,0
+"Delaware",1986,0
+"Delaware",1987,0
+"Delaware",1988,0
+"Delaware",1989,0
+"Delaware",1990,0
+"Delaware",1991,0
+"Delaware",1992,0
+"Delaware",1993,0
+"Delaware",1994,0
+"Delaware",1995,0
+"Delaware",1996,0
+"Delaware",1997,0
+"Delaware",1998,0
+"Delaware",1999,0
+"Delaware",2000,0
+"Delaware",2001,0
+"Delaware",2002,0
+"Delaware",2003,0
+"Delaware",2004,0
+"Delaware",2005,0
+"Delaware",2006,0
+"Delaware",2007,0
+"Delaware",2008,0
+"Delaware",2009,0
+"Delaware",2010,0
+"Delaware",2011,0
+"Delaware",2012,0
+"Delaware",2013,0
+"Delaware",2014,0
+"District of Columbia",1970,2
+"District of Columbia",1971,2
+"District of Columbia",1972,2
+"District of Columbia",1973,2
+"District of Columbia",1974,2
+"District of Columbia",1975,3
+"District of Columbia",1976,3
+"District of Columbia",1977,3
+"District of Columbia",1978,3
+"District of Columbia",1979,3
+"District of Columbia",1980,4
+"District of Columbia",1981,5
+"District of Columbia",1982,5
+"District of Columbia",1983,6
+"District of Columbia",1984,6
+"District of Columbia",1985,6
+"District of Columbia",1986,7
+"District of Columbia",1987,8
+"District of Columbia",1988,8
+"District of Columbia",1989,9
+"District of Columbia",1990,9
+"District of Columbia",1991,11
+"District of Columbia",1992,13
+"District of Columbia",1993,13
+"District of Columbia",1994,13
+"District of Columbia",1995,13
+"District of Columbia",1996,13
+"District of Columbia",1997,14
+"District of Columbia",1998,15
+"District of Columbia",1999,19
+"District of Columbia",2000,20
+"District of Columbia",2001,21
+"District of Columbia",2002,22
+"District of Columbia",2003,23
+"District of Columbia",2004,24
+"District of Columbia",2005,25
+"District of Columbia",2006,25
+"District of Columbia",2007,25
+"District of Columbia",2008,29
+"District of Columbia",2009,40
+"District of Columbia",2010,43
+"District of Columbia",2011,0
+"District of Columbia",2012,0
+"District of Columbia",2013,0
+"District of Columbia",2014,0
+"Florida",1970,2
+"Florida",1971,2
+"Florida",1972,2
+"Florida",1973,3
+"Florida",1974,3
+"Florida",1975,3
+"Florida",1976,3
+"Florida",1977,3
+"Florida",1978,3
+"Florida",1979,3
+"Florida",1980,3
+"Florida",1981,3
+"Florida",1982,5
+"Florida",1983,5
+"Florida",1984,5
+"Florida",1985,5
+"Florida",1986,6
+"Florida",1987,7
+"Florida",1988,8
+"Florida",1989,9
+"Florida",1990,11
+"Florida",1991,11
+"Florida",1992,12
+"Florida",1993,10
+"Florida",1994,10
+"Florida",1995,11
+"Florida",1996,11
+"Florida",1997,11
+"Florida",1998,13
+"Florida",1999,17
+"Florida",2000,18
+"Florida",2001,20
+"Florida",2002,20
+"Florida",2003,20
+"Florida",2004,20
+"Florida",2005,21
+"Florida",2006,21
+"Florida",2007,21
+"Florida",2008,21
+"Florida",2009,33
+"Florida",2010,33
+"Florida",2011,33
+"Florida",2012,33
+"Florida",2013,33
+"Florida",2014,33
+"Georgia",1970,2
+"Georgia",1971,2
+"Georgia",1972,3
+"Georgia",1973,1
+"Georgia",1974,1
+"Georgia",1975,1
+"Georgia",1976,1
+"Georgia",1977,1
+"Georgia",1978,1
+"Georgia",1979,1
+"Georgia",1980,2
+"Georgia",1981,2
+"Georgia",1982,2
+"Georgia",1983,2
+"Georgia",1984,2
+"Georgia",1985,2
+"Georgia",1986,3
+"Georgia",1987,3
+"Georgia",1988,4
+"Georgia",1989,4
+"Georgia",1990,4
+"Georgia",1991,5
+"Georgia",1992,6
+"Georgia",1993,5
+"Georgia",1994,5
+"Georgia",1995,5
+"Georgia",1996,5
+"Georgia",1997,5
+"Georgia",1998,6
+"Georgia",1999,8
+"Georgia",2000,9
+"Georgia",2001,9
+"Georgia",2002,9
+"Georgia",2003,10
+"Georgia",2004,13
+"Georgia",2005,14
+"Georgia",2006,14
+"Georgia",2007,14
+"Georgia",2008,15
+"Georgia",2009,18
+"Georgia",2010,18
+"Georgia",2011,19
+"Georgia",2012,18
+"Georgia",2013,18
+"Georgia",2014,19
+"Hawaii",1970,2
+"Hawaii",1971,2
+"Hawaii",1972,2
+"Hawaii",1973,2
+"Hawaii",1974,2
+"Hawaii",1975,2
+"Hawaii",1976,2
+"Hawaii",1977,2
+"Hawaii",1978,3
+"Hawaii",1979,3
+"Hawaii",1980,3
+"Hawaii",1981,3
+"Hawaii",1982,4
+"Hawaii",1983,4
+"Hawaii",1984,4
+"Hawaii",1985,4
+"Hawaii",1986,5
+"Hawaii",1987,6
+"Hawaii",1988,6
+"Hawaii",1989,7
+"Hawaii",1990,7
+"Hawaii",1991,8
+"Hawaii",1992,9
+"Hawaii",1993,9
+"Hawaii",1994,9
+"Hawaii",1995,9
+"Hawaii",1996,9
+"Hawaii",1997,10
+"Hawaii",1998,12
+"Hawaii",1999,15
+"Hawaii",2000,16
+"Hawaii",2001,17
+"Hawaii",2002,18
+"Hawaii",2003,19
+"Hawaii",2004,20
+"Hawaii",2005,20
+"Hawaii",2006,21
+"Hawaii",2007,23
+"Hawaii",2008,23
+"Hawaii",2009,30
+"Hawaii",2010,34
+"Hawaii",2011,35
+"Hawaii",2012,34
+"Hawaii",2013,35
+"Hawaii",2014,35
+"Idaho",1970,1
+"Idaho",1971,1
+"Idaho",1972,1
+"Idaho",1973,1
+"Idaho",1974,1
+"Idaho",1975,1
+"Idaho",1976,2
+"Idaho",1977,2
+"Idaho",1978,2
+"Idaho",1979,2
+"Idaho",1980,2
+"Idaho",1981,2
+"Idaho",1982,2
+"Idaho",1983,4
+"Idaho",1984,4
+"Idaho",1985,4
+"Idaho",1986,5
+"Idaho",1987,6
+"Idaho",1988,7
+"Idaho",1989,7
+"Idaho",1990,7
+"Idaho",1991,8
+"Idaho",1992,9
+"Idaho",1993,8
+"Idaho",1994,8
+"Idaho",1995,9
+"Idaho",1996,9
+"Idaho",1997,9
+"Idaho",1998,10
+"Idaho",1999,14
+"Idaho",2000,15
+"Idaho",2001,16
+"Idaho",2002,16
+"Idaho",2003,21
+"Idaho",2004,21
+"Idaho",2005,18
+"Idaho",2006,18
+"Idaho",2007,22
+"Idaho",2008,23
+"Idaho",2009,27
+"Idaho",2010,28
+"Idaho",2011,29
+"Idaho",2012,29
+"Idaho",2013,29
+"Idaho",2014,30
+"Illinois",1970,2
+"Illinois",1971,2
+"Illinois",1972,2
+"Illinois",1973,2
+"Illinois",1974,2
+"Illinois",1975,2
+"Illinois",1976,2
+"Illinois",1977,2
+"Illinois",1978,2
+"Illinois",1979,3
+"Illinois",1980,3
+"Illinois",1981,3
+"Illinois",1982,4
+"Illinois",1983,4
+"Illinois",1984,5
+"Illinois",1985,5
+"Illinois",1986,7
+"Illinois",1987,8
+"Illinois",1988,8
+"Illinois",1989,9
+"Illinois",1990,10
+"Illinois",1991,11
+"Illinois",1992,13
+"Illinois",1993,11
+"Illinois",1994,11
+"Illinois",1995,12
+"Illinois",1996,12
+"Illinois",1997,13
+"Illinois",1998,15
+"Illinois",1999,20
+"Illinois",2000,20
+"Illinois",2001,21
+"Illinois",2002,25
+"Illinois",2003,25
+"Illinois",2004,27
+"Illinois",2005,27
+"Illinois",2006,30
+"Illinois",2007,31
+"Illinois",2008,31
+"Illinois",2009,35
+"Illinois",2010,37
+"Illinois",2011,37
+"Illinois",2012,43
+"Illinois",2013,44
+"Illinois",2014,45
+"Indiana",1970,1
+"Indiana",1971,1
+"Indiana",1972,1
+"Indiana",1973,1
+"Indiana",1974,1
+"Indiana",1975,1
+"Indiana",1976,2
+"Indiana",1977,2
+"Indiana",1978,2
+"Indiana",1979,2
+"Indiana",1980,2
+"Indiana",1981,3
+"Indiana",1982,3
+"Indiana",1983,4
+"Indiana",1984,4
+"Indiana",1985,4
+"Indiana",1986,5
+"Indiana",1987,6
+"Indiana",1988,6
+"Indiana",1989,6
+"Indiana",1990,7
+"Indiana",1991,8
+"Indiana",1992,9
+"Indiana",1993,8
+"Indiana",1994,8
+"Indiana",1995,8
+"Indiana",1996,8
+"Indiana",1997,8
+"Indiana",1998,9
+"Indiana",1999,13
+"Indiana",2000,14
+"Indiana",2001,15
+"Indiana",2002,20
+"Indiana",2003,21
+"Indiana",2004,21
+"Indiana",2005,21
+"Indiana",2006,21
+"Indiana",2007,25
+"Indiana",2008,29
+"Indiana",2009,34
+"Indiana",2010,36
+"Indiana",2011,36
+"Indiana",2012,36
+"Indiana",2013,37
+"Indiana",2014,38
+"Iowa",1970,1
+"Iowa",1971,1
+"Iowa",1972,1
+"Iowa",1973,1
+"Iowa",1974,2
+"Iowa",1975,2
+"Iowa",1976,2
+"Iowa",1977,2
+"Iowa",1978,2
+"Iowa",1979,2
+"Iowa",1980,2
+"Iowa",1981,2
+"Iowa",1982,3
+"Iowa",1983,4
+"Iowa",1984,4
+"Iowa",1985,4
+"Iowa",1986,5
+"Iowa",1987,5
+"Iowa",1988,6
+"Iowa",1989,6
+"Iowa",1990,7
+"Iowa",1991,8
+"Iowa",1992,11
+"Iowa",1993,9
+"Iowa",1994,9
+"Iowa",1995,9
+"Iowa",1996,10
+"Iowa",1997,10
+"Iowa",1998,11
+"Iowa",1999,14
+"Iowa",2000,15
+"Iowa",2001,16
+"Iowa",2002,16
+"Iowa",2003,17
+"Iowa",2004,16
+"Iowa",2005,17
+"Iowa",2006,17
+"Iowa",2007,23
+"Iowa",2008,27
+"Iowa",2009,32
+"Iowa",2010,34
+"Iowa",2011,35
+"Iowa",2012,35
+"Iowa",2013,35
+"Iowa",2014,35
+"Kansas",1970,1
+"Kansas",1971,1
+"Kansas",1972,2
+"Kansas",1973,2
+"Kansas",1974,2
+"Kansas",1975,2
+"Kansas",1976,2
+"Kansas",1977,2
+"Kansas",1978,2
+"Kansas",1979,2
+"Kansas",1980,2
+"Kansas",1981,2
+"Kansas",1982,2
+"Kansas",1983,3
+"Kansas",1984,3
+"Kansas",1985,3
+"Kansas",1986,5
+"Kansas",1987,5
+"Kansas",1988,5
+"Kansas",1989,6
+"Kansas",1990,6
+"Kansas",1991,7
+"Kansas",1992,9
+"Kansas",1993,8
+"Kansas",1994,8
+"Kansas",1995,8
+"Kansas",1996,8
+"Kansas",1997,9
+"Kansas",1998,10
+"Kansas",1999,13
+"Kansas",2000,14
+"Kansas",2001,15
+"Kansas",2002,19
+"Kansas",2003,21
+"Kansas",2004,20
+"Kansas",2005,20
+"Kansas",2006,21
+"Kansas",2007,22
+"Kansas",2008,22
+"Kansas",2009,25
+"Kansas",2010,31
+"Kansas",2011,32
+"Kansas",2012,32
+"Kansas",2013,32
+"Kansas",2014,32
+"Kentucky",1970,2
+"Kentucky",1971,2
+"Kentucky",1972,2
+"Kentucky",1973,2
+"Kentucky",1974,2
+"Kentucky",1975,2
+"Kentucky",1976,2
+"Kentucky",1977,2
+"Kentucky",1978,2
+"Kentucky",1979,2
+"Kentucky",1980,2
+"Kentucky",1981,3
+"Kentucky",1982,3
+"Kentucky",1983,4
+"Kentucky",1984,4
+"Kentucky",1985,4
+"Kentucky",1986,5
+"Kentucky",1987,5
+"Kentucky",1988,5
+"Kentucky",1989,6
+"Kentucky",1990,6
+"Kentucky",1991,8
+"Kentucky",1992,9
+"Kentucky",1993,8
+"Kentucky",1994,8
+"Kentucky",1995,8
+"Kentucky",1996,9
+"Kentucky",1997,9
+"Kentucky",1998,11
+"Kentucky",1999,15
+"Kentucky",2000,16
+"Kentucky",2001,17
+"Kentucky",2002,18
+"Kentucky",2003,19
+"Kentucky",2004,18
+"Kentucky",2005,20
+"Kentucky",2006,20
+"Kentucky",2007,20
+"Kentucky",2008,21
+"Kentucky",2009,27
+"Kentucky",2010,27
+"Kentucky",2011,28
+"Kentucky",2012,29
+"Kentucky",2013,29
+"Kentucky",2014,29
+"Louisiana",1970,1
+"Louisiana",1971,1
+"Louisiana",1972,1
+"Louisiana",1973,1
+"Louisiana",1974,2
+"Louisiana",1975,2
+"Louisiana",1976,2
+"Louisiana",1977,2
+"Louisiana",1978,2
+"Louisiana",1979,2
+"Louisiana",1980,2
+"Louisiana",1981,2
+"Louisiana",1982,3
+"Louisiana",1983,3
+"Louisiana",1984,4
+"Louisiana",1985,4
+"Louisiana",1986,5
+"Louisiana",1987,5
+"Louisiana",1988,5
+"Louisiana",1989,6
+"Louisiana",1990,6
+"Louisiana",1991,7
+"Louisiana",1992,8
+"Louisiana",1993,7
+"Louisiana",1994,7
+"Louisiana",1995,7
+"Louisiana",1996,7
+"Louisiana",1997,7
+"Louisiana",1998,8
+"Louisiana",1999,11
+"Louisiana",2000,12
+"Louisiana",2001,13
+"Louisiana",2002,13
+"Louisiana",2003,14
+"Louisiana",2004,14
+"Louisiana",2005,14
+"Louisiana",2006,14
+"Louisiana",2007,14
+"Louisiana",2008,15
+"Louisiana",2009,18
+"Louisiana",2010,18
+"Louisiana",2011,19
+"Louisiana",2012,19
+"Louisiana",2013,19
+"Louisiana",2014,19
+"Maine",1970,0
+"Maine",1971,0
+"Maine",1972,0
+"Maine",1973,0
+"Maine",1974,0
+"Maine",1975,0
+"Maine",1976,0
+"Maine",1977,0
+"Maine",1978,0
+"Maine",1979,0
+"Maine",1980,0
+"Maine",1981,0
+"Maine",1982,0
+"Maine",1983,0
+"Maine",1984,5
+"Maine",1985,5
+"Maine",1986,6
+"Maine",1987,7
+"Maine",1988,7
+"Maine",1989,8
+"Maine",1990,8
+"Maine",1991,11
+"Maine",1992,11
+"Maine",1993,11
+"Maine",1994,11
+"Maine",1995,11
+"Maine",1996,11
+"Maine",1997,13
+"Maine",1998,15
+"Maine",1999,18
+"Maine",2000,18
+"Maine",2001,20
+"Maine",2002,21
+"Maine",2003,21
+"Maine",2004,20
+"Maine",2005,26
+"Maine",2006,26
+"Maine",2007,27
+"Maine",2008,28
+"Maine",2009,31
+"Maine",2010,32
+"Maine",2011,33
+"Maine",2012,32
+"Maine",2013,32
+"Maine",2014,36
+"Maryland",1970,2
+"Maryland",1971,2
+"Maryland",1972,2
+"Maryland",1973,2
+"Maryland",1974,2
+"Maryland",1975,2
+"Maryland",1976,2
+"Maryland",1977,2
+"Maryland",1978,3
+"Maryland",1979,3
+"Maryland",1980,0
+"Maryland",1981,0
+"Maryland",1982,0
+"Maryland",1983,0
+"Maryland",1984,0
+"Maryland",1985,0
+"Maryland",1986,0
+"Maryland",1987,0
+"Maryland",1988,0
+"Maryland",1989,0
+"Maryland",1990,0
+"Maryland",1991,8
+"Maryland",1992,10
+"Maryland",1993,9
+"Maryland",1994,9
+"Maryland",1995,9
+"Maryland",1996,10
+"Maryland",1997,11
+"Maryland",1998,11
+"Maryland",1999,16
+"Maryland",2000,17
+"Maryland",2001,18
+"Maryland",2002,20
+"Maryland",2003,20
+"Maryland",2004,20
+"Maryland",2005,20
+"Maryland",2006,21
+"Maryland",2007,21
+"Maryland",2008,33
+"Maryland",2009,37
+"Maryland",2010,37
+"Maryland",2011,38
+"Maryland",2012,38
+"Maryland",2013,38
+"Maryland",2014,39
+"Massachusetts",1970,0
+"Massachusetts",1971,0
+"Massachusetts",1972,0
+"Massachusetts",1973,0
+"Massachusetts",1974,0
+"Massachusetts",1975,0
+"Massachusetts",1976,0
+"Massachusetts",1977,0
+"Massachusetts",1978,0
+"Massachusetts",1979,0
+"Massachusetts",1980,0
+"Massachusetts",1981,0
+"Massachusetts",1982,0
+"Massachusetts",1983,0
+"Massachusetts",1984,0
+"Massachusetts",1985,0
+"Massachusetts",1986,0
+"Massachusetts",1987,0
+"Massachusetts",1988,7
+"Massachusetts",1989,8
+"Massachusetts",1990,9
+"Massachusetts",1991,9
+"Massachusetts",1992,9
+"Massachusetts",1993,10
+"Massachusetts",1994,10
+"Massachusetts",1995,10
+"Massachusetts",1996,12
+"Massachusetts",1997,13
+"Massachusetts",1998,14
+"Massachusetts",1999,18
+"Massachusetts",2000,19
+"Massachusetts",2001,20
+"Massachusetts",2002,24
+"Massachusetts",2003,26
+"Massachusetts",2004,25
+"Massachusetts",2005,25
+"Massachusetts",2006,25
+"Massachusetts",2007,26
+"Massachusetts",2008,32
+"Massachusetts",2009,45
+"Massachusetts",2010,46
+"Massachusetts",2011,47
+"Massachusetts",2012,47
+"Massachusetts",2013,54
+"Massachusetts",2014,55
+"Michigan",1970,2
+"Michigan",1971,1
+"Michigan",1972,1
+"Michigan",1973,2
+"Michigan",1974,2
+"Michigan",1975,2
+"Michigan",1976,2
+"Michigan",1977,2
+"Michigan",1978,2
+"Michigan",1979,2
+"Michigan",1980,2
+"Michigan",1981,3
+"Michigan",1982,3
+"Michigan",1983,3
+"Michigan",1984,3
+"Michigan",1985,3
+"Michigan",1986,4
+"Michigan",1987,4
+"Michigan",1988,5
+"Michigan",1989,5
+"Michigan",1990,6
+"Michigan",1991,7
+"Michigan",1992,7
+"Michigan",1993,7
+"Michigan",1994,13
+"Michigan",1995,14
+"Michigan",1996,14
+"Michigan",1997,15
+"Michigan",1998,16
+"Michigan",1999,20
+"Michigan",2000,21
+"Michigan",2001,22
+"Michigan",2002,26
+"Michigan",2003,26
+"Michigan",2004,30
+"Michigan",2005,31
+"Michigan",2006,32
+"Michigan",2007,32
+"Michigan",2008,33
+"Michigan",2009,37
+"Michigan",2010,37
+"Michigan",2011,38
+"Michigan",2012,38
+"Michigan",2013,39
+"Michigan",2014,39
+"Minnesota",1970,0
+"Minnesota",1971,0
+"Minnesota",1972,0
+"Minnesota",1973,0
+"Minnesota",1974,0
+"Minnesota",1975,0
+"Minnesota",1976,0
+"Minnesota",1977,0
+"Minnesota",1978,0
+"Minnesota",1979,0
+"Minnesota",1980,0
+"Minnesota",1981,0
+"Minnesota",1982,4
+"Minnesota",1983,6
+"Minnesota",1984,6
+"Minnesota",1985,6
+"Minnesota",1986,7
+"Minnesota",1987,9
+"Minnesota",1988,9
+"Minnesota",1989,10
+"Minnesota",1990,11
+"Minnesota",1991,13
+"Minnesota",1992,14
+"Minnesota",1993,13
+"Minnesota",1994,13
+"Minnesota",1995,13
+"Minnesota",1996,14
+"Minnesota",1997,14
+"Minnesota",1998,15
+"Minnesota",1999,19
+"Minnesota",2000,20
+"Minnesota",2001,22
+"Minnesota",2002,23
+"Minnesota",2003,23
+"Minnesota",2004,23
+"Minnesota",2005,0
+"Minnesota",2006,0
+"Minnesota",2007,0
+"Minnesota",2008,0
+"Minnesota",2009,0
+"Minnesota",2010,0
+"Minnesota",2011,0
+"Minnesota",2012,0
+"Minnesota",2013,0
+"Minnesota",2014,0
+"Mississippi",1970,2
+"Mississippi",1971,2
+"Mississippi",1972,2
+"Mississippi",1973,2
+"Mississippi",1974,2
+"Mississippi",1975,2
+"Mississippi",1976,3
+"Mississippi",1977,3
+"Mississippi",1978,3
+"Mississippi",1979,3
+"Mississippi",1980,3
+"Mississippi",1981,4
+"Mississippi",1982,4
+"Mississippi",1983,4
+"Mississippi",1984,5
+"Mississippi",1985,5
+"Mississippi",1986,7
+"Mississippi",1987,8
+"Mississippi",1988,8
+"Mississippi",1989,8
+"Mississippi",1990,9
+"Mississippi",1991,10
+"Mississippi",1992,11
+"Mississippi",1993,11
+"Mississippi",1994,11
+"Mississippi",1995,11
+"Mississippi",1996,12
+"Mississippi",1997,12
+"Mississippi",1998,14
+"Mississippi",1999,19
+"Mississippi",2000,20
+"Mississippi",2001,21
+"Mississippi",2002,22
+"Mississippi",2003,22
+"Mississippi",2004,22
+"Mississippi",2005,22
+"Mississippi",2006,22
+"Mississippi",2007,24
+"Mississippi",2008,24
+"Mississippi",2009,32
+"Mississippi",2010,33
+"Mississippi",2011,35
+"Mississippi",2012,34
+"Mississippi",2013,34
+"Mississippi",2014,36
+"Missouri",1970,1
+"Missouri",1971,1
+"Missouri",1972,1
+"Missouri",1973,1
+"Missouri",1974,1
+"Missouri",1975,1
+"Missouri",1976,2
+"Missouri",1977,1
+"Missouri",1978,2
+"Missouri",1979,2
+"Missouri",1980,2
+"Missouri",1981,2
+"Missouri",1982,2
+"Missouri",1983,3
+"Missouri",1984,3
+"Missouri",1985,3
+"Missouri",1986,4
+"Missouri",1987,4
+"Missouri",1988,5
+"Missouri",1989,5
+"Missouri",1990,6
+"Missouri",1991,7
+"Missouri",1992,7
+"Missouri",1993,6
+"Missouri",1994,6
+"Missouri",1995,7
+"Missouri",1996,7
+"Missouri",1997,7
+"Missouri",1998,8
+"Missouri",1999,11
+"Missouri",2000,12
+"Missouri",2001,13
+"Missouri",2002,13
+"Missouri",2003,13
+"Missouri",2004,13
+"Missouri",2005,14
+"Missouri",2006,14
+"Missouri",2007,14
+"Missouri",2008,14
+"Missouri",2009,17
+"Missouri",2010,17
+"Missouri",2011,18
+"Missouri",2012,18
+"Missouri",2013,19
+"Missouri",2014,19
+"Montana",1970,0
+"Montana",1971,0
+"Montana",1972,0
+"Montana",1973,0
+"Montana",1974,0
+"Montana",1975,0
+"Montana",1976,0
+"Montana",1977,0
+"Montana",1978,0
+"Montana",1979,0
+"Montana",1980,0
+"Montana",1981,0
+"Montana",1982,0
+"Montana",1983,0
+"Montana",1984,0
+"Montana",1985,0
+"Montana",1986,0
+"Montana",1987,0
+"Montana",1988,0
+"Montana",1989,0
+"Montana",1990,0
+"Montana",1991,0
+"Montana",1992,0
+"Montana",1993,0
+"Montana",1994,0
+"Montana",1995,0
+"Montana",1996,0
+"Montana",1997,0
+"Montana",1998,0
+"Montana",1999,0
+"Montana",2000,0
+"Montana",2001,0
+"Montana",2002,0
+"Montana",2003,0
+"Montana",2004,0
+"Montana",2005,0
+"Montana",2006,0
+"Montana",2007,0
+"Montana",2008,0
+"Montana",2009,0
+"Montana",2010,0
+"Montana",2011,0
+"Montana",2012,0
+"Montana",2013,0
+"Montana",2014,0
+"Nebraska",1970,1
+"Nebraska",1971,1
+"Nebraska",1972,1
+"Nebraska",1973,1
+"Nebraska",1974,1
+"Nebraska",1975,1
+"Nebraska",1976,1
+"Nebraska",1977,2
+"Nebraska",1978,2
+"Nebraska",1979,2
+"Nebraska",1980,2
+"Nebraska",1981,2
+"Nebraska",1982,3
+"Nebraska",1983,4
+"Nebraska",1984,3
+"Nebraska",1985,4
+"Nebraska",1986,4
+"Nebraska",1987,5
+"Nebraska",1988,6
+"Nebraska",1989,6
+"Nebraska",1990,8
+"Nebraska",1991,8
+"Nebraska",1992,9
+"Nebraska",1993,9
+"Nebraska",1994,9
+"Nebraska",1995,9
+"Nebraska",1996,9
+"Nebraska",1997,10
+"Nebraska",1998,10
+"Nebraska",1999,13
+"Nebraska",2000,14
+"Nebraska",2001,15
+"Nebraska",2002,17
+"Nebraska",2003,17
+"Nebraska",2004,19
+"Nebraska",2005,20
+"Nebraska",2006,20
+"Nebraska",2007,21
+"Nebraska",2008,21
+"Nebraska",2009,26
+"Nebraska",2010,27
+"Nebraska",2011,28
+"Nebraska",2012,28
+"Nebraska",2013,29
+"Nebraska",2014,29
+"Nevada",1970,1
+"Nevada",1971,1
+"Nevada",1972,1
+"Nevada",1973,2
+"Nevada",1974,2
+"Nevada",1975,1
+"Nevada",1976,2
+"Nevada",1977,2
+"Nevada",1978,2
+"Nevada",1979,2
+"Nevada",1980,2
+"Nevada",1981,4
+"Nevada",1982,5
+"Nevada",1983,5
+"Nevada",1984,6
+"Nevada",1985,6
+"Nevada",1986,7
+"Nevada",1987,8
+"Nevada",1988,8
+"Nevada",1989,10
+"Nevada",1990,11
+"Nevada",1991,13
+"Nevada",1992,13
+"Nevada",1993,13
+"Nevada",1994,13
+"Nevada",1995,13
+"Nevada",1996,13
+"Nevada",1997,13
+"Nevada",1998,14
+"Nevada",1999,20
+"Nevada",2000,21
+"Nevada",2001,22
+"Nevada",2002,22
+"Nevada",2003,25
+"Nevada",2004,25
+"Nevada",2005,25
+"Nevada",2006,25
+"Nevada",2007,26
+"Nevada",2008,26
+"Nevada",2009,34
+"Nevada",2010,34
+"Nevada",2011,36
+"Nevada",2012,36
+"Nevada",2013,36
+"Nevada",2014,36
+"New Hampshire",1970,0
+"New Hampshire",1971,0
+"New Hampshire",1972,0
+"New Hampshire",1973,0
+"New Hampshire",1974,0
+"New Hampshire",1975,0
+"New Hampshire",1976,0
+"New Hampshire",1977,0
+"New Hampshire",1978,0
+"New Hampshire",1979,0
+"New Hampshire",1980,0
+"New Hampshire",1981,0
+"New Hampshire",1982,0
+"New Hampshire",1983,0
+"New Hampshire",1984,0
+"New Hampshire",1985,0
+"New Hampshire",1986,0
+"New Hampshire",1987,0
+"New Hampshire",1988,0
+"New Hampshire",1989,0
+"New Hampshire",1990,0
+"New Hampshire",1991,0
+"New Hampshire",1992,0
+"New Hampshire",1993,0
+"New Hampshire",1994,0
+"New Hampshire",1995,0
+"New Hampshire",1996,0
+"New Hampshire",1997,0
+"New Hampshire",1998,0
+"New Hampshire",1999,0
+"New Hampshire",2000,0
+"New Hampshire",2001,0
+"New Hampshire",2002,0
+"New Hampshire",2003,0
+"New Hampshire",2004,0
+"New Hampshire",2005,0
+"New Hampshire",2006,0
+"New Hampshire",2007,0
+"New Hampshire",2008,0
+"New Hampshire",2009,0
+"New Hampshire",2010,0
+"New Hampshire",2011,0
+"New Hampshire",2012,0
+"New Hampshire",2013,0
+"New Hampshire",2014,0
+"New Jersey",1970,0
+"New Jersey",1971,0
+"New Jersey",1972,0
+"New Jersey",1973,0
+"New Jersey",1974,0
+"New Jersey",1975,0
+"New Jersey",1976,0
+"New Jersey",1977,0
+"New Jersey",1978,0
+"New Jersey",1979,0
+"New Jersey",1980,0
+"New Jersey",1981,0
+"New Jersey",1982,0
+"New Jersey",1983,0
+"New Jersey",1984,0
+"New Jersey",1985,0
+"New Jersey",1986,0
+"New Jersey",1987,0
+"New Jersey",1988,0
+"New Jersey",1989,0
+"New Jersey",1990,13
+"New Jersey",1991,13
+"New Jersey",1992,12
+"New Jersey",1993,12
+"New Jersey",1994,12
+"New Jersey",1995,12
+"New Jersey",1996,12
+"New Jersey",1997,13
+"New Jersey",1998,16
+"New Jersey",1999,17
+"New Jersey",2000,18
+"New Jersey",2001,19
+"New Jersey",2002,23
+"New Jersey",2003,32
+"New Jersey",2004,33
+"New Jersey",2005,33
+"New Jersey",2006,42
+"New Jersey",2007,43
+"New Jersey",2008,44
+"New Jersey",2009,50
+"New Jersey",2010,51
+"New Jersey",2011,51
+"New Jersey",2012,51
+"New Jersey",2013,52
+"New Jersey",2014,52
+"New Mexico",1970,2
+"New Mexico",1971,2
+"New Mexico",1972,2
+"New Mexico",1973,2
+"New Mexico",1974,2
+"New Mexico",1975,2
+"New Mexico",1976,2
+"New Mexico",1977,2
+"New Mexico",1978,2
+"New Mexico",1979,2
+"New Mexico",1980,2
+"New Mexico",1981,3
+"New Mexico",1982,3
+"New Mexico",1983,3
+"New Mexico",1984,4
+"New Mexico",1985,4
+"New Mexico",1986,5
+"New Mexico",1987,6
+"New Mexico",1988,6
+"New Mexico",1989,6
+"New Mexico",1990,6
+"New Mexico",1991,8
+"New Mexico",1992,9
+"New Mexico",1993,8
+"New Mexico",1994,8
+"New Mexico",1995,8
+"New Mexico",1996,9
+"New Mexico",1997,9
+"New Mexico",1998,10
+"New Mexico",1999,14
+"New Mexico",2000,15
+"New Mexico",2001,16
+"New Mexico",2002,17
+"New Mexico",2003,19
+"New Mexico",2004,19
+"New Mexico",2005,19
+"New Mexico",2006,19
+"New Mexico",2007,20
+"New Mexico",2008,21
+"New Mexico",2009,25
+"New Mexico",2010,30
+"New Mexico",2011,31
+"New Mexico",2012,32
+"New Mexico",2013,32
+"New Mexico",2014,33
+"New York",1970,2
+"New York",1971,1
+"New York",1972,2
+"New York",1973,2
+"New York",1974,2
+"New York",1975,2
+"New York",1976,2
+"New York",1977,2
+"New York",1978,2
+"New York",1979,2
+"New York",1980,2
+"New York",1981,2
+"New York",1982,3
+"New York",1983,3
+"New York",1984,3
+"New York",1985,3
+"New York",1986,4
+"New York",1987,4
+"New York",1988,5
+"New York",1989,7
+"New York",1990,7
+"New York",1991,8
+"New York",1992,8
+"New York",1993,8
+"New York",1994,8
+"New York",1995,8
+"New York",1996,9
+"New York",1997,9
+"New York",1998,10
+"New York",1999,13
+"New York",2000,16
+"New York",2001,17
+"New York",2002,23
+"New York",2003,22
+"New York",2004,22
+"New York",2005,22
+"New York",2006,22
+"New York",2007,22
+"New York",2008,27
+"New York",2009,31
+"New York",2010,39
+"New York",2011,39
+"New York",2012,40
+"New York",2013,40
+"New York",2014,40
+"North Carolina",1970,1
+"North Carolina",1971,1
+"North Carolina",1972,1
+"North Carolina",1973,1
+"North Carolina",1974,2
+"North Carolina",1975,2
+"North Carolina",1976,2
+"North Carolina",1977,2
+"North Carolina",1978,1
+"North Carolina",1979,2
+"North Carolina",1980,2
+"North Carolina",1981,2
+"North Carolina",1982,3
+"North Carolina",1983,3
+"North Carolina",1984,3
+"North Carolina",1985,3
+"North Carolina",1986,3
+"North Carolina",1987,3
+"North Carolina",1988,3
+"North Carolina",1989,3
+"North Carolina",1990,4
+"North Carolina",1991,6
+"North Carolina",1992,6
+"North Carolina",1993,5
+"North Carolina",1994,6
+"North Carolina",1995,6
+"North Carolina",1996,6
+"North Carolina",1997,7
+"North Carolina",1998,8
+"North Carolina",1999,10
+"North Carolina",2000,11
+"North Carolina",2001,12
+"North Carolina",2002,12
+"North Carolina",2003,14
+"North Carolina",2004,14
+"North Carolina",2005,15
+"North Carolina",2006,15
+"North Carolina",2007,16
+"North Carolina",2008,16
+"North Carolina",2009,26
+"North Carolina",2010,26
+"North Carolina",2011,27
+"North Carolina",2012,22
+"North Carolina",2013,22
+"North Carolina",2014,23
+"North Dakota",1970,2
+"North Dakota",1971,2
+"North Dakota",1972,2
+"North Dakota",1973,2
+"North Dakota",1974,2
+"North Dakota",1975,2
+"North Dakota",1976,2
+"North Dakota",1977,2
+"North Dakota",1978,2
+"North Dakota",1979,2
+"North Dakota",1980,2
+"North Dakota",1981,3
+"North Dakota",1982,2
+"North Dakota",1983,4
+"North Dakota",1984,4
+"North Dakota",1985,4
+"North Dakota",1986,5
+"North Dakota",1987,7
+"North Dakota",1988,7
+"North Dakota",1989,9
+"North Dakota",1990,10
+"North Dakota",1991,10
+"North Dakota",1992,11
+"North Dakota",1993,11
+"North Dakota",1994,11
+"North Dakota",1995,11
+"North Dakota",1996,12
+"North Dakota",1997,12
+"North Dakota",1998,13
+"North Dakota",1999,18
+"North Dakota",2000,18
+"North Dakota",2001,20
+"North Dakota",2002,21
+"North Dakota",2003,18
+"North Dakota",2004,17
+"North Dakota",2005,17
+"North Dakota",2006,17
+"North Dakota",2007,18
+"North Dakota",2008,18
+"North Dakota",2009,21
+"North Dakota",2010,22
+"North Dakota",2011,23
+"North Dakota",2012,22
+"North Dakota",2013,23
+"North Dakota",2014,24
+"Ohio",1970,2
+"Ohio",1971,2
+"Ohio",1972,0
+"Ohio",1973,0
+"Ohio",1974,0
+"Ohio",1975,0
+"Ohio",1976,0
+"Ohio",1977,0
+"Ohio",1978,0
+"Ohio",1979,0
+"Ohio",1980,0
+"Ohio",1981,0
+"Ohio",1982,4
+"Ohio",1983,4
+"Ohio",1984,4
+"Ohio",1985,4
+"Ohio",1986,5
+"Ohio",1987,5
+"Ohio",1988,6
+"Ohio",1989,7
+"Ohio",1990,7
+"Ohio",1991,8
+"Ohio",1992,8
+"Ohio",1993,8
+"Ohio",1994,8
+"Ohio",1995,8
+"Ohio",1996,8
+"Ohio",1997,9
+"Ohio",1998,10
+"Ohio",1999,13
+"Ohio",2000,14
+"Ohio",2001,15
+"Ohio",2002,18
+"Ohio",2003,21
+"Ohio",2004,21
+"Ohio",2005,23
+"Ohio",2006,23
+"Ohio",2007,24
+"Ohio",2008,25
+"Ohio",2009,29
+"Ohio",2010,30
+"Ohio",2011,31
+"Ohio",2012,31
+"Ohio",2013,31
+"Ohio",2014,33
+"Oklahoma",1970,0
+"Oklahoma",1971,0
+"Oklahoma",1972,0
+"Oklahoma",1973,0
+"Oklahoma",1974,0
+"Oklahoma",1975,0
+"Oklahoma",1976,0
+"Oklahoma",1977,0
+"Oklahoma",1978,0
+"Oklahoma",1979,0
+"Oklahoma",1980,0
+"Oklahoma",1981,0
+"Oklahoma",1982,0
+"Oklahoma",1983,0
+"Oklahoma",1984,2
+"Oklahoma",1985,2
+"Oklahoma",1986,4
+"Oklahoma",1987,5
+"Oklahoma",1988,5
+"Oklahoma",1989,6
+"Oklahoma",1990,7
+"Oklahoma",1991,8
+"Oklahoma",1992,8
+"Oklahoma",1993,7
+"Oklahoma",1994,7
+"Oklahoma",1995,7
+"Oklahoma",1996,8
+"Oklahoma",1997,8
+"Oklahoma",1998,9
+"Oklahoma",1999,12
+"Oklahoma",2000,13
+"Oklahoma",2001,14
+"Oklahoma",2002,14
+"Oklahoma",2003,14
+"Oklahoma",2004,14
+"Oklahoma",2005,0
+"Oklahoma",2006,0
+"Oklahoma",2007,0
+"Oklahoma",2008,0
+"Oklahoma",2009,0
+"Oklahoma",2010,0
+"Oklahoma",2011,0
+"Oklahoma",2012,0
+"Oklahoma",2013,0
+"Oklahoma",2014,0
+"Oregon",1970,0
+"Oregon",1971,0
+"Oregon",1972,0
+"Oregon",1973,0
+"Oregon",1974,0
+"Oregon",1975,0
+"Oregon",1976,0
+"Oregon",1977,0
+"Oregon",1978,0
+"Oregon",1979,0
+"Oregon",1980,0
+"Oregon",1981,0
+"Oregon",1982,0
+"Oregon",1983,0
+"Oregon",1984,0
+"Oregon",1985,0
+"Oregon",1986,0
+"Oregon",1987,0
+"Oregon",1988,0
+"Oregon",1989,0
+"Oregon",1990,0
+"Oregon",1991,0
+"Oregon",1992,0
+"Oregon",1993,0
+"Oregon",1994,0
+"Oregon",1995,0
+"Oregon",1996,0
+"Oregon",1997,0
+"Oregon",1998,0
+"Oregon",1999,0
+"Oregon",2000,0
+"Oregon",2001,0
+"Oregon",2002,0
+"Oregon",2003,0
+"Oregon",2004,0
+"Oregon",2005,0
+"Oregon",2006,0
+"Oregon",2007,0
+"Oregon",2008,0
+"Oregon",2009,0
+"Oregon",2010,0
+"Oregon",2011,0
+"Oregon",2012,0
+"Oregon",2013,0
+"Oregon",2014,0
+"Pennsylvania",1970,0
+"Pennsylvania",1971,0
+"Pennsylvania",1972,0
+"Pennsylvania",1973,0
+"Pennsylvania",1974,0
+"Pennsylvania",1975,0
+"Pennsylvania",1976,0
+"Pennsylvania",1977,0
+"Pennsylvania",1978,0
+"Pennsylvania",1979,0
+"Pennsylvania",1980,0
+"Pennsylvania",1981,0
+"Pennsylvania",1982,0
+"Pennsylvania",1983,6
+"Pennsylvania",1984,6
+"Pennsylvania",1985,6
+"Pennsylvania",1986,6
+"Pennsylvania",1987,7
+"Pennsylvania",1988,7
+"Pennsylvania",1989,8
+"Pennsylvania",1990,9
+"Pennsylvania",1991,11
+"Pennsylvania",1992,11
+"Pennsylvania",1993,10
+"Pennsylvania",1994,10
+"Pennsylvania",1995,10
+"Pennsylvania",1996,11
+"Pennsylvania",1997,11
+"Pennsylvania",1998,12
+"Pennsylvania",1999,17
+"Pennsylvania",2000,18
+"Pennsylvania",2001,19
+"Pennsylvania",2002,24
+"Pennsylvania",2003,23
+"Pennsylvania",2004,26
+"Pennsylvania",2005,26
+"Pennsylvania",2006,26
+"Pennsylvania",2007,26
+"Pennsylvania",2008,27
+"Pennsylvania",2009,33
+"Pennsylvania",2010,34
+"Pennsylvania",2011,35
+"Pennsylvania",2012,35
+"Pennsylvania",2013,36
+"Pennsylvania",2014,39
+"Rhode Island",1970,0
+"Rhode Island",1971,0
+"Rhode Island",1972,0
+"Rhode Island",1973,0
+"Rhode Island",1974,0
+"Rhode Island",1975,0
+"Rhode Island",1976,0
+"Rhode Island",1977,0
+"Rhode Island",1978,0
+"Rhode Island",1979,0
+"Rhode Island",1980,0
+"Rhode Island",1981,0
+"Rhode Island",1982,0
+"Rhode Island",1983,0
+"Rhode Island",1984,0
+"Rhode Island",1985,0
+"Rhode Island",1986,0
+"Rhode Island",1987,0
+"Rhode Island",1988,0
+"Rhode Island",1989,0
+"Rhode Island",1990,12
+"Rhode Island",1991,13
+"Rhode Island",1992,14
+"Rhode Island",1993,12
+"Rhode Island",1994,14
+"Rhode Island",1995,15
+"Rhode Island",1996,15
+"Rhode Island",1997,16
+"Rhode Island",1998,18
+"Rhode Island",1999,23
+"Rhode Island",2000,24
+"Rhode Island",2001,27
+"Rhode Island",2002,31
+"Rhode Island",2003,33
+"Rhode Island",2004,38
+"Rhode Island",2005,39
+"Rhode Island",2006,40
+"Rhode Island",2007,40
+"Rhode Island",2008,41
+"Rhode Island",2009,54
+"Rhode Island",2010,55
+"Rhode Island",2011,55
+"Rhode Island",2012,57
+"Rhode Island",2013,56
+"Rhode Island",2014,52
+"South Carolina",1970,2
+"South Carolina",1971,2
+"South Carolina",1972,2
+"South Carolina",1973,2
+"South Carolina",1974,2
+"South Carolina",1975,2
+"South Carolina",1976,2
+"South Carolina",1977,2
+"South Carolina",1978,2
+"South Carolina",1979,2
+"South Carolina",1980,2
+"South Carolina",1981,3
+"South Carolina",1982,3
+"South Carolina",1983,3
+"South Carolina",1984,4
+"South Carolina",1985,3
+"South Carolina",1986,5
+"South Carolina",1987,5
+"South Carolina",1988,6
+"South Carolina",1989,6
+"South Carolina",1990,7
+"South Carolina",1991,8
+"South Carolina",1992,8
+"South Carolina",1993,7
+"South Carolina",1994,7
+"South Carolina",1995,7
+"South Carolina",1996,8
+"South Carolina",1997,8
+"South Carolina",1998,10
+"South Carolina",1999,13
+"South Carolina",2000,14
+"South Carolina",2001,15
+"South Carolina",2002,16
+"South Carolina",2003,16
+"South Carolina",2004,16
+"South Carolina",2005,16
+"South Carolina",2006,16
+"South Carolina",2007,19
+"South Carolina",2008,20
+"South Carolina",2009,24
+"South Carolina",2010,28
+"South Carolina",2011,29
+"South Carolina",2012,29
+"South Carolina",2013,29
+"South Carolina",2014,30
+"South Dakota",1970,0
+"South Dakota",1971,0
+"South Dakota",1972,0
+"South Dakota",1973,0
+"South Dakota",1974,0
+"South Dakota",1975,0
+"South Dakota",1976,0
+"South Dakota",1977,0
+"South Dakota",1978,0
+"South Dakota",1979,0
+"South Dakota",1980,0
+"South Dakota",1981,0
+"South Dakota",1982,0
+"South Dakota",1983,0
+"South Dakota",1984,0
+"South Dakota",1985,0
+"South Dakota",1986,0
+"South Dakota",1987,6
+"South Dakota",1988,5
+"South Dakota",1989,6
+"South Dakota",1990,6
+"South Dakota",1991,7
+"South Dakota",1992,7
+"South Dakota",1993,6
+"South Dakota",1994,6
+"South Dakota",1995,7
+"South Dakota",1996,7
+"South Dakota",1997,8
+"South Dakota",1998,8
+"South Dakota",1999,11
+"South Dakota",2000,12
+"South Dakota",2001,13
+"South Dakota",2002,14
+"South Dakota",2003,14
+"South Dakota",2004,14
+"South Dakota",2005,14
+"South Dakota",2006,14
+"South Dakota",2007,18
+"South Dakota",2008,18
+"South Dakota",2009,22
+"South Dakota",2010,24
+"South Dakota",2011,24
+"South Dakota",2012,23
+"South Dakota",2013,23
+"South Dakota",2014,24
+"Tennessee",1970,2
+"Tennessee",1971,2
+"Tennessee",1972,2
+"Tennessee",1973,2
+"Tennessee",1974,2
+"Tennessee",1975,2
+"Tennessee",1976,2
+"Tennessee",1977,2
+"Tennessee",1978,3
+"Tennessee",1979,3
+"Tennessee",1980,3
+"Tennessee",1981,3
+"Tennessee",1982,4
+"Tennessee",1983,4
+"Tennessee",1984,5
+"Tennessee",1985,5
+"Tennessee",1986,8
+"Tennessee",1987,9
+"Tennessee",1988,9
+"Tennessee",1989,10
+"Tennessee",1990,11
+"Tennessee",1991,12
+"Tennessee",1992,14
+"Tennessee",1993,14
+"Tennessee",1994,13
+"Tennessee",1995,13
+"Tennessee",1996,13
+"Tennessee",1997,14
+"Tennessee",1998,16
+"Tennessee",1999,21
+"Tennessee",2000,23
+"Tennessee",2001,25
+"Tennessee",2002,27
+"Tennessee",2003,27
+"Tennessee",2004,26
+"Tennessee",2005,29
+"Tennessee",2006,31
+"Tennessee",2007,32
+"Tennessee",2008,26
+"Tennessee",2009,32
+"Tennessee",2010,34
+"Tennessee",2011,35
+"Tennessee",2012,34
+"Tennessee",2013,35
+"Tennessee",2014,35
+"Texas",1970,0
+"Texas",1971,0
+"Texas",1972,0
+"Texas",1973,0
+"Texas",1974,0
+"Texas",1975,0
+"Texas",1976,0
+"Texas",1977,0
+"Texas",1978,0
+"Texas",1979,0
+"Texas",1980,0
+"Texas",1981,0
+"Texas",1982,0
+"Texas",1983,0
+"Texas",1984,4
+"Texas",1985,4
+"Texas",1986,5
+"Texas",1987,8
+"Texas",1988,8
+"Texas",1989,9
+"Texas",1990,11
+"Texas",1991,12
+"Texas",1992,13
+"Texas",1993,13
+"Texas",1994,12
+"Texas",1995,12
+"Texas",1996,12
+"Texas",1997,13
+"Texas",1998,14
+"Texas",1999,18
+"Texas",2000,20
+"Texas",2001,20
+"Texas",2002,22
+"Texas",2003,22
+"Texas",2004,21
+"Texas",2005,21
+"Texas",2006,21
+"Texas",2007,28
+"Texas",2008,28
+"Texas",2009,34
+"Texas",2010,35
+"Texas",2011,36
+"Texas",2012,35
+"Texas",2013,36
+"Texas",2014,36
+"Utah",1970,2
+"Utah",1971,2
+"Utah",1972,2
+"Utah",1973,2
+"Utah",1974,2
+"Utah",1975,2
+"Utah",1976,2
+"Utah",1977,2
+"Utah",1978,3
+"Utah",1979,3
+"Utah",1980,3
+"Utah",1981,3
+"Utah",1982,4
+"Utah",1983,5
+"Utah",1984,6
+"Utah",1985,6
+"Utah",1986,5
+"Utah",1987,6
+"Utah",1988,7
+"Utah",1989,8
+"Utah",1990,8
+"Utah",1991,8
+"Utah",1992,9
+"Utah",1993,9
+"Utah",1994,8
+"Utah",1995,8
+"Utah",1996,9
+"Utah",1997,10
+"Utah",1998,12
+"Utah",1999,15
+"Utah",2000,16
+"Utah",2001,16
+"Utah",2002,18
+"Utah",2003,18
+"Utah",2004,18
+"Utah",2005,18
+"Utah",2006,18
+"Utah",2007,18
+"Utah",2008,19
+"Utah",2009,22
+"Utah",2010,27
+"Utah",2011,28
+"Utah",2012,29
+"Utah",2013,29
+"Utah",2014,29
+"Vermont",1970,0
+"Vermont",1971,0
+"Vermont",1972,0
+"Vermont",1973,0
+"Vermont",1974,0
+"Vermont",1975,0
+"Vermont",1976,0
+"Vermont",1977,0
+"Vermont",1978,0
+"Vermont",1979,0
+"Vermont",1980,0
+"Vermont",1981,0
+"Vermont",1982,0
+"Vermont",1983,0
+"Vermont",1984,0
+"Vermont",1985,4
+"Vermont",1986,4
+"Vermont",1987,5
+"Vermont",1988,5
+"Vermont",1989,6
+"Vermont",1990,6
+"Vermont",1991,8
+"Vermont",1992,9
+"Vermont",1993,8
+"Vermont",1994,8
+"Vermont",1995,10
+"Vermont",1996,10
+"Vermont",1997,11
+"Vermont",1998,12
+"Vermont",1999,15
+"Vermont",2000,16
+"Vermont",2001,17
+"Vermont",2002,19
+"Vermont",2003,26
+"Vermont",2004,27
+"Vermont",2005,27
+"Vermont",2006,29
+"Vermont",2007,31
+"Vermont",2008,34
+"Vermont",2009,40
+"Vermont",2010,41
+"Vermont",2011,45
+"Vermont",2012,45
+"Vermont",2013,46
+"Vermont",2014,46
+"Virginia",1970,1
+"Virginia",1971,1
+"Virginia",1972,1
+"Virginia",1973,1
+"Virginia",1974,1
+"Virginia",1975,2
+"Virginia",1976,2
+"Virginia",1977,2
+"Virginia",1978,2
+"Virginia",1979,2
+"Virginia",1980,2
+"Virginia",1981,2
+"Virginia",1982,3
+"Virginia",1983,3
+"Virginia",1984,3
+"Virginia",1985,3
+"Virginia",1986,4
+"Virginia",1987,5
+"Virginia",1988,5
+"Virginia",1989,6
+"Virginia",1990,6
+"Virginia",1991,7
+"Virginia",1992,7
+"Virginia",1993,7
+"Virginia",1994,7
+"Virginia",1995,7
+"Virginia",1996,7
+"Virginia",1997,7
+"Virginia",1998,8
+"Virginia",1999,11
+"Virginia",2000,12
+"Virginia",2001,13
+"Virginia",2002,14
+"Virginia",2003,15
+"Virginia",2004,15
+"Virginia",2005,17
+"Virginia",2006,17
+"Virginia",2007,18
+"Virginia",2008,18
+"Virginia",2009,22
+"Virginia",2010,23
+"Virginia",2011,23
+"Virginia",2012,23
+"Virginia",2013,24
+"Virginia",2014,26
+"Washington",1970,2
+"Washington",1971,2
+"Washington",1972,2
+"Washington",1973,2
+"Washington",1974,2
+"Washington",1975,3
+"Washington",1976,3
+"Washington",1977,3
+"Washington",1978,3
+"Washington",1979,3
+"Washington",1980,3
+"Washington",1981,4
+"Washington",1982,5
+"Washington",1983,6
+"Washington",1984,7
+"Washington",1985,7
+"Washington",1986,9
+"Washington",1987,10
+"Washington",1988,10
+"Washington",1989,11
+"Washington",1990,12
+"Washington",1991,13
+"Washington",1992,13
+"Washington",1993,14
+"Washington",1994,15
+"Washington",1995,16
+"Washington",1996,17
+"Washington",1997,18
+"Washington",1998,19
+"Washington",1999,23
+"Washington",2000,25
+"Washington",2001,26
+"Washington",2002,31
+"Washington",2003,31
+"Washington",2004,31
+"Washington",2005,34
+"Washington",2006,35
+"Washington",2007,35
+"Washington",2008,37
+"Washington",2009,42
+"Washington",2010,50
+"Washington",2011,50
+"Washington",2012,50
+"Washington",2013,50
+"Washington",2014,51
+"West Virginia",1970,2
+"West Virginia",1971,2
+"West Virginia",1972,2
+"West Virginia",1973,2
+"West Virginia",1974,2
+"West Virginia",1975,2
+"West Virginia",1976,2
+"West Virginia",1977,2
+"West Virginia",1978,2
+"West Virginia",1979,2
+"West Virginia",1980,2
+"West Virginia",1981,4
+"West Virginia",1982,5
+"West Virginia",1983,5
+"West Virginia",1984,5
+"West Virginia",1985,5
+"West Virginia",1986,6
+"West Virginia",1987,6
+"West Virginia",1988,8
+"West Virginia",1989,9
+"West Virginia",1990,9
+"West Virginia",1991,9
+"West Virginia",1992,10
+"West Virginia",1993,9
+"West Virginia",1994,9
+"West Virginia",1995,9
+"West Virginia",1996,10
+"West Virginia",1997,11
+"West Virginia",1998,12
+"West Virginia",1999,15
+"West Virginia",2000,17
+"West Virginia",2001,18
+"West Virginia",2002,18
+"West Virginia",2003,21
+"West Virginia",2004,20
+"West Virginia",2005,20
+"West Virginia",2006,21
+"West Virginia",2007,21
+"West Virginia",2008,22
+"West Virginia",2009,27
+"West Virginia",2010,27
+"West Virginia",2011,28
+"West Virginia",2012,28
+"West Virginia",2013,29
+"West Virginia",2014,29
+"Wisconsin",1970,0
+"Wisconsin",1971,0
+"Wisconsin",1972,0
+"Wisconsin",1973,0
+"Wisconsin",1974,0
+"Wisconsin",1975,2
+"Wisconsin",1976,2
+"Wisconsin",1977,2
+"Wisconsin",1978,2
+"Wisconsin",1979,2
+"Wisconsin",1980,3
+"Wisconsin",1981,3
+"Wisconsin",1982,5
+"Wisconsin",1983,5
+"Wisconsin",1984,5
+"Wisconsin",1985,5
+"Wisconsin",1986,6
+"Wisconsin",1987,7
+"Wisconsin",1988,7
+"Wisconsin",1989,8
+"Wisconsin",1990,8
+"Wisconsin",1991,9
+"Wisconsin",1992,10
+"Wisconsin",1993,9
+"Wisconsin",1994,9
+"Wisconsin",1995,10
+"Wisconsin",1996,10
+"Wisconsin",1997,10
+"Wisconsin",1998,12
+"Wisconsin",1999,16
+"Wisconsin",2000,17
+"Wisconsin",2001,19
+"Wisconsin",2002,20
+"Wisconsin",2003,19
+"Wisconsin",2004,19
+"Wisconsin",2005,19
+"Wisconsin",2006,19
+"Wisconsin",2007,21
+"Wisconsin",2008,25
+"Wisconsin",2009,35
+"Wisconsin",2010,35
+"Wisconsin",2011,36
+"Wisconsin",2012,36
+"Wisconsin",2013,37
+"Wisconsin",2014,38
+"Wyoming",1970,0
+"Wyoming",1971,0
+"Wyoming",1972,0
+"Wyoming",1973,0
+"Wyoming",1974,0
+"Wyoming",1975,0
+"Wyoming",1976,0
+"Wyoming",1977,0
+"Wyoming",1978,0
+"Wyoming",1979,0
+"Wyoming",1980,0
+"Wyoming",1981,0
+"Wyoming",1982,0
+"Wyoming",1983,0
+"Wyoming",1984,0
+"Wyoming",1985,0
+"Wyoming",1986,0
+"Wyoming",1987,0
+"Wyoming",1988,0
+"Wyoming",1989,0
+"Wyoming",1990,0
+"Wyoming",1991,0
+"Wyoming",1992,0
+"Wyoming",1993,0
+"Wyoming",1994,0
+"Wyoming",1995,0
+"Wyoming",1996,0
+"Wyoming",1997,0
+"Wyoming",1998,0
+"Wyoming",1999,11
+"Wyoming",2000,12
+"Wyoming",2001,13
+"Wyoming",2002,13
+"Wyoming",2003,14
+"Wyoming",2004,15
+"Wyoming",2005,15
+"Wyoming",2006,15
+"Wyoming",2007,15
+"Wyoming",2008,16
+"Wyoming",2009,19
+"Wyoming",2010,20
+"Wyoming",2011,20
+"Wyoming",2012,20
+"Wyoming",2013,20
+"Wyoming",2014,20

@@ -1,0 +1,324 @@
+---
+title: "Data"
+author: "Michael"
+date: "November 30, 2016"
+output: html_document
+---
+
+# Introduction
+
+We have data from three sources that we need to integrate into a single data set. The challenge is that different data providers provide the data differently arranged. We need to get all three datasets into a common arrangement in which each entity (state) and year have exactly one row and different variables are in different columns. In the R world data arranged in this way is called "tidy data". 
+
+Once all three data sets are in tidy form, we can merge them into a single dataset. Along the way we'll need to do some minor data cleaning and make a few new variables.
+
+# Tidy format
+
+Tidy format is the the format of all the datasets we've worked with in this class. Those datasets have been put together in a manner similar to what we're about to do. 
+
+In our three data sources we will encounter two sorts of arrangments. It helps to see a simple example of that arrangement, so I've made two very small example datasets that display these two sorts. In both datasets there are two entities (Utah and Virginia), two years (1990, 1991), and two variables (ahe and educ). 
+
+## Case 1: Too narrow
+
+First, "narrow" data where there is a column that holds the variable names with another column holding the corresponding values. Here's what it looks like:
+
+```{r}
+too_narrow <- data.frame(state = c("UT", "UT", "UT", "UT", 
+                                "VA", "VA", "VA", "VA"), 
+                       year = c(1990, 1990, 1991, 1991, 
+                                1990, 1990, 1991, 1991),
+                       var_name = c("ahe", "educ", "ahe", "educ", 
+                                    "ahe", "educ", "ahe", "educ"), 
+                       var_value = c(14.2, 13.1, 14.9, 13.2, 
+                                     14.6, 13.2, 15.1, 13.2))
+too_narrow
+```
+
+Notice how the column var_value actually holds the values of two different variables. We want each variable to be in its own column. To do that we can use a function called "spread" from the library "tidyr", which we would first need to install. 
+
+```{r}
+# Load the library after you've installed it.
+suppressMessages(library(tidyr))
+
+# The function spread() will pull the variables into their own column.
+
+just_right <- spread(too_narrow, key = var_name, value = var_value)
+```
+
+Now look at the re-arranged data:
+
+```{r}
+just_right
+```
+
+## Case 2: Dimensions flipped
+
+For lack of a better description, in this sort of data arrangment different years are in different columns and different variables are in different rows (we want it the other way around). Here's an example of what that looks like:
+
+```{r}
+flipped <- data.frame(state = c("UT", "UT", "VA", "VA"),
+                      var_name = c("ahe", "edu", "ahe", "edu"),
+                      `1990` = c(14.2, 13.1, 14.6, 13.2),
+                      `1991` = c(14.9, 13.2, 15.1, 13.2),
+                      check.names = FALSE)
+flipped
+```
+
+To tidy this arrangement we'll take two steps. First, fold the columns under so that the years go along the rows and under a column named 'year' and the values go under a column named 'var_value'. To do that, use the function gather() -- also in the tidyr library -- like shown below. Note that you have to indicate which columns should not be folded under. The syntax to indicate such columns is to put a minus sign in front of the column name. So here we're going to fold down all the columns except state and var_name.
+
+```{r}
+too_narrow <- gather(flipped, key = year, value = var_value, -state, -var_name)
+
+too_narrow
+```
+
+At this point we've got the years all in one column, but there is only one column that holds all the variable values -- just like the too_narrow dataset of Case 1 above. But we can just do exactly what we did for that case to get our tidy arrangement, use the spread() function:
+
+```{r}
+just_right <- spread(too_narrow, key = var_name, value = var_value)
+
+just_right
+```
+
+Now we have the data in tidy format. If these two cases had been our real datasets, they would be ready to merge. 
+
+# CDC data
+
+The CDC data turns out to be in Case 1 above. Although there are a few cleaning steps we need to do along the way, the crux of it is to follow what we did above.
+
+```{r}
+# Prevent strings from being set as factors -- want them as strings for now. 
+options(stringsAsFactors = FALSE)
+cdc <- read.csv(file = "cdc.csv")
+```
+
+At this point look at the data to see what you're dealing with. I'll look at the first 10 rows:
+
+```{r}
+head(cdc, 10)
+```
+
+You can see that for each state and year there is more than one row. That's "narrow" format. We can use spread() to unpack it to tidy format, but we should do a few other things first. For one, those variable names are too long and unwieldy. Let's rename the columns. You can choose whatever names you want, but I highly recommend as short and simple as possible. Also recommend keeping the names consistent across the different datasets. For example, we've called state 'name', so let's continue using that.
+
+```{r}
+names(cdc) <- c("year", "name", "source", "topic", "measure", "var_name", 
+                "var_unit", "var_value")
+```
+
+Let's not carry along columns we won't use. For example, we won't do anything with the 'source', 'topic', 'measure', or 'var_unit' column, so we should just go ahead and get rid of them now so we don't have to deal with them in the re-arraning. One thing: we're dropping the var_unit which tells us the units of the variable (dollars, percent, etc.). We'll just need to keep aware of what our units are. 
+
+One way to remove multiple columns columns is to use setdiff(A, B) where A is the names of all the columns and B is the names of those you want to remove. To get all the columns, use names(cdc). 
+
+```{r}
+keep <- setdiff(names(cdc), c("source", "topic", "measure", "var_unit"))
+keep
+```
+
+Check that the printout of 'keep' above shows the variables you want to keep. If it is, then select just those columns out of cdc:
+
+```{r}
+cdc <- cdc[, keep] 
+```
+
+Now check the new cdc to make sure it's what you expected:
+
+```{r}
+head(cdc, 10)
+```
+
+Alright, at this point the data is ready to re-arrange just like Case 1. Notice I'm re-arranging the data and then overwritting the dataset cdc. This keeps us from having to think up and keep track of new names, but means we have to be careful because we're chaning the definition of 'cdc' as we're going.
+
+```{r}
+cdc <- spread(cdc, key = var_name, value = var_value)
+```
+
+Check ...
+
+```{r}
+head(cdc)
+```
+
+Looks good except for those very long variable names. Let's change them to something more manageable. Acronyms work well. To change, same method as above.
+
+```{r}
+names(cdc) <- c("year", "name", "acpp", "cc", "fstprp", "fstpp", "gctr", "stpp")
+```
+
+Check ...
+
+```{r}
+head(cdc, 10)
+```
+
+OK, at this point the cdc data is tidy and ready to integrate. Now we move on to the BEA data, which is in the more difficult Case 2.
+
+# BEA data
+
+```{r}
+bea <- read.csv(file = "bea.csv", check.names = FALSE)
+```
+
+Look at bea with either View(bea) or clicking on the icon. You can see that the years are on the columns. If we had not set check.names to FALSE in the read.csv(), then the years would have a prepended "X" since column names shouldn't start with a number. But we're about to fold those under so it's OK. 
+Before doing anything else let's remove columns we won't need. We can do without the GeoFips and LineCode columns. Same method as above:
+
+```{r}
+keep <- setdiff(names(bea), c("GeoFips", "LineCode"))
+
+bea <- bea[, keep]
+```
+
+Check to make sure those columns are gone. 
+
+Now fold the year columns down (indicating we don't want to fold GeoName or Description)
+
+```{r}
+bea <- gather(bea, key = year, value = var_value, -GeoName, -Description)
+```
+
+At this point it's in the "too narrow" intermediate stage of Case 2. Before going to the final step of unpacking the 6 different variables into their own columns, we need to take care of a few cleaning details.
+
+First, let's rename the columns. We have called the states 'name' before so let's do that again.
+
+```{r}
+names(bea) <- c("name", "var_name", "year", "var_value")
+```
+
+Second, the states Alaska and Hawaii have an asterisk (*) next to their name. In the raw data this was to mark them for a footnote comment that for those states we only have data since 1950 (hence their values are marked "(NA)" for years prior to 1950) -- both places become U.S. states in 1959. So we need to remove those asterisks because if we don't then they won't match the way Alaska is "spelled" in the cdc data set -- when we try to merge they won't match up. To do that, you can either manually remove them in a text editor using search and replace [actually you can open such files in RStudio and edit them as though they're code, just click on them in the files tab and they'll open like an R script. Make your edits, then save.] or you can do that in R. I'll show the later. 
+
+```{r}
+# gsub = generalized substitution -- think of a powerful sort of 
+# search-replace. Need to tell it that the 'pattern' is to be taken
+# literally, not as a regular expression. 
+bea$name <- gsub(x = bea$name, pattern = "*", replacement = "", fixed = TRUE)
+```
+
+Check that the asterisks are gone.
+
+Third, year is currently 'typed' as a character. We want it as a number. Change that with as.numeric -- note that 'numeric' is the type for year in the cdc data, so this keeps it consistent. 
+
+```{r}
+bea$year <- as.numeric(bea$year)
+```
+
+Fourth, for years prior to 1950 there are "(NA)" among the numbers in the var_value column, triggering R to type that column as a character column. To deal with that, we could either replace "(NA)" with NA -- NA means 'blank' so doesn't cause trouble like the non-standard "(NA)" does -- using gsub() like above. Alternatively, we can just subset for those years on or after 1970. That will give us only data where there are no "(NA)" values. That's what I'll do here.
+
+```{r}
+bea  <- subset(bea, subset = (year >= 1970))
+```
+
+Now change var_value to numeric:
+
+```{r}
+bea$var_value <- as.numeric(bea$var_value)
+```
+
+With those cleaning steps out of the way we can unpack the data:
+
+```{r}
+bea <- spread(bea, key = var_name, value = var_value)
+```
+
+Check that it looks right ...
+
+```{r}
+head(bea)
+```
+
+Yes, only thing is those names are way too long. Rename just like above:
+
+```{r}
+names(bea) <- c("name", "year", "pcpi", "pi", "pop")
+```
+
+Now the bea data is in tidy format and could be merged with the cdc data. We want to merge the data where their states (name) and years (year) match:
+
+```{r}
+cdcbea <- merge(cdc, bea, by = c("name", "year"))
+```
+
+By the way, the areas in the BEA data like U.S. and various regions, will not get matched in the merge, so will fall out at this point -- which is what you want, point is just that we don't have to remove those non-state areas as a separate step since they don't survive the merge. 
+
+Look at the merge dataset and check that it seems right. Try plotting a few of the variables by state
+
+OK, now we need to be able to inflation adjust, so bring in the CPI data from BLS. Get the "U.S. All items, 1982-84=100 - CUUR0000SA0" series by year and save as a CSV.
+
+```{r}
+cpi <- read.csv(file = "cpi.csv")
+```
+
+Rename the columns:
+
+```{r}
+names(cpi) <- c("id", "year", "period", "cpi")
+```
+
+Remove unneeded columns (here simpler to just list the ones to keep)
+
+```{r}
+keep <- c("year", "cpi")
+cpi <- cpi[, keep]
+head(cpi)
+```
+
+The 'cpi' column is the index itself. Make a column of inflation factors. To do that decide on the base year (everything else will be put in terms of that year's dollars). The most recent year in the cdc data is 2014, so let's use 2014 as our base.
+
+```{r}
+base_cpi <- cpi[cpi$year == 2014, "cpi"]
+
+# Inflation factor = base cpi / current cpi
+cpi$inflation_factor <- base_cpi / cpi$cpi
+```
+
+Look at cpi and check if it makes sense. Should see that the inflation factor was 6.1 in 1970 -- meaning that 1 dollar in 1970 is equivalent to 6.1 dollars in 2014. We want to now adjust all the dollar values to 2014 dollars.
+
+```{r}
+cdcbeacpi <- merge(cdcbea, cpi, by = "year")
+```
+
+To do that go back and look at the variable definitions and units. For any variable that is about dollars, we need to multiply it by the inflation factor. 
+
+Before we can do that we have to merge this cpi data with our data to this point. In this case merge by year:
+
+Now the cpi is part of our data set. So, for example, to inflation-adjust per capita personal income:
+
+```{r}
+# New "real" (inflation-adjusted) version of personal income.
+cdcbeacpi$rpcpi <- cdcbeacpi$pcpi * cdcbeacpi$inflation_factor
+```
+
+Plot both pcpi and rpcpi by year by state -- does it look as expected?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

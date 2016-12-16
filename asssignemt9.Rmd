@@ -1,0 +1,87 @@
+---
+title: "Assignment 9"
+author: "Tom Steinbrecher, Ting Chen"
+date: "December 3, 2016"
+output: pdf_document
+---
+
+|Name |Defintion|
+|---------------|--------------------------------------------------------------|
+|year |Year of data|
+|name |Name of state (Alabama, Alaska, etc.)|
+|acpp |Average nominal cost of cigarettes (dollars per pack)|
+|cc |Cigarette consumption per capita (packs per year)|
+|fstprp |Federal and state cigarette-specific taxes as a percentage of the retail price (price you actually pay) of cigarettes|
+|fstpp| Federal and state cigarette-specific nominal taxes (dollars per pack)|
+|gctr| Gross cigarette-specific nominal tax revenues (dollars)|
+|stpp |State cigarette-specific nominal tax (dollars per pack)|
+|pi |Nominal personal income (dollars)|
+|pcpi| Per capita nomial personal income (dollars)|
+|pop |Population|
+|cpi |CPI value (All urban consumers)|
+|inflation_factor| Factor by which to multiply a dollar in a given year to make it equivalent to a dollar in the base year (2014)|
+|racpp| Average real cost of cigarettes (2014 dollars per pack)|
+|rfstpp |Federal and state cigarette-specific real taxes (2014 dollars per pack)|
+|rgctr |Gross cigarette-specific real tax revenues (2014 dollars)|
+|rstpp| State cigarette-specific nominal tax (2014 dollars per pack)|
+|rpi |Real personal income (2014 dollars)|
+|rpcpi| Per capita real personal income (2014 dollars)|
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+data <- read.csv("cigdata.csv")
+library(ggplot2)
+library(dplyr)
+
+ggplot(data, aes(x=year, y=cc, color=name))+
+  geom_line() +
+  ylim(0,300) +
+  theme(legend.position = "none") +
+  ggtitle("4. Ciggarete consumption by year")
+
+state.average <- data %>% group_by(name) %>%
+                 summarise(mean(cc))
+
+ggplot(state.average, aes(x=name, y=`mean(cc)`)) +
+  geom_bar(stat="identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("5. average cigarette consumption by state 1970-2014")
+
+year.average.consumption <- data %>% group_by(year) %>%
+                summarise(mean(cc))
+
+ggplot(year.average.consumption, aes(x=year, y=`mean(cc)`)) +
+  geom_line(stat="identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ylim(0, 150) +
+  ggtitle("6. Average cigarette consumption by year (across all states) 1970-2014")
+
+
+year.average.price <- data %>% group_by(year) %>%
+                summarise(mean(acpp))
+
+ggplot(year.average.price, aes(x=year, y=`mean(acpp)`)) +
+  geom_line(stat="identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("7. Average nominal price by year (across all states) 1970-2014")
+
+
+year.average.real.price <- data %>% group_by(year) %>%
+                summarise(mean(racpp))
+
+ggplot(year.average.real.price, aes(x=year, y=`mean(racpp)`)) +
+  geom_line(stat="identity") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  ggtitle("Average real price by year (across all states) 1970-2014")
+
+
+ggplot(data, aes(x=racpp, y=cc)) +
+  geom_point(alpha=.3) +
+  ggtitle("8. Consumption vs. Inflation Adjusted Prices")
+
+
+ggplot(data, aes(x=log(racpp), y=log(cc))) +
+  geom_point(alpha=.3) +
+  ggtitle("9. Log Consumption vs. Log Inflation Adjusted Prices")
+
+```
+
